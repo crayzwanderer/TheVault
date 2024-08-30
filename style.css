@@ -6,6 +6,7 @@
 }
 .button2,
 .button3{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    display: block;
 }
