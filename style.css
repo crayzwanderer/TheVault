@@ -4,3 +4,8 @@
     margin: 0 auto;
 
 }
+.button2,
+.button3{
+    width: 400px;
+    height: 400px;
+}
