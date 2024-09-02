@@ -1,14 +1,30 @@
-
-btn btn-primary{
-    width: 250px;
-    height: 200px;
-    
+btn btn-primary {
+  width: 250px;
+  height: 200px;
 }
-body{
-    background-image: url("images/Flag.png") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+body {
+  background-image: url("images/Flag.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.card{margin-top:30px}
+/* Default styles for .card */
+.card {
+  /* Add default styles here */
+  padding: 20px; /* Example default padding */
+  margin: 10px auto; /* Example default margin */
+  width: 90%; /* Example default width */
+  max-width: 400px; /* Example max-width for larger screens */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow */
+  border-radius: 8px; /* Example border-radius */
+}
 
+/* Styles for .card when the screen width is 650px or less */
+@media (max-width: 650px) {
+  .card {
+    padding: 10px; /* Reduced padding for smaller screens */
+    margin: 10px; /* Adjust margin for better spacing */
+    width: 100%; /* Full width for small screens */
+    box-shadow: none; /* Optional: remove shadow on smaller screens */
+    border-radius: 4px; /* Optional: adjust border-radius */
+  }
+}
