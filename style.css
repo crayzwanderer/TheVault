@@ -13,7 +13,7 @@ body {
   padding: 20px; /* Example default padding */
   margin: 10px auto; /* Example default margin */
   width: 90%; /* Example default width */
-  max-width: 400px; /* Example max-width for larger screens */
+  max-width: 800px; /* Example max-width for larger screens */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow */
   border-radius: 8px; /* Example border-radius */
 }
@@ -26,5 +26,13 @@ body {
     width: 100%; /* Full width for small screens */
     box-shadow: none; /* Optional: remove shadow on smaller screens */
     border-radius: 4px; /* Optional: adjust border-radius */
+  }
+}
+
+@media (max-width: 650px) {
+  btn btn-primary {
+    width: 80px;
+    text-align: center;
+    justify-content: center;
   }
 }
