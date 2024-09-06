@@ -29,7 +29,7 @@ body {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   btn btn-primary {
     width: 80px;
     text-align: center;
